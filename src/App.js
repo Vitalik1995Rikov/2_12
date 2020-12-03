@@ -6,8 +6,6 @@ class App extends React.Component {
   render() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
         {this.props.name}
         </p>
@@ -19,7 +17,6 @@ class App extends React.Component {
         >
           {this.props.link}
         </a>
-      </header>
     </div>
   )
 }

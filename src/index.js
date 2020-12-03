@@ -7,8 +7,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-      <App name='Edit <code>src/App.js</code> and save to reload.' link="Learn React"/>
-      <App name='Отредактируйте <code>src/App.js</code> и сохраните, чтобы перезагрузить.' link="Учи React, малыш"/>
+      <App name='Hello, world' link="World, hello"/>
+      <App name='Привет, мир' link="Мир, привет"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
